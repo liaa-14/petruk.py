@@ -22,4 +22,12 @@ def tampilkan_laporan(nama, daftar_nilai, batas=BATAS_LULUS):
     print(f"Rata-rata : {round(rata, 2)}")
     print(f"Status    : {status}")
     print("-" * 25)
-
+    
+if __name__ == "__main__":
+    print("== Pengujian hitung.py ==")
+    assert abs(hitung_rata_rata([80, 75, 90]) - 81.67) < 0.01
+    assert tentukan_status(70) == "Lulus"
+    assert tentukan_status(69.9) == "Tidak Lulus"
+    tampilkan_laporan("Budi", [80, 75, 90])
+    tampilkan_laporan("Sari", [60, 65, 55, 70])
+    print("Semua pengujian lolos")
