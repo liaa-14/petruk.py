@@ -1,0 +1,8 @@
+Senin   ; 31 C 
+Selasa  ; 33 C 
+Rabu    ; 29 C 
+Kamis   ; 35 C
+Jumat   ; 32 C 
+Sabtu   ; 30 C 
+Minggu  ; 28 C 
+
